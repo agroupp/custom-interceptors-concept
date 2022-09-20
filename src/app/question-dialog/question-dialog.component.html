@@ -1,0 +1,10 @@
+<h1 mat-dialog-title class="title" *ngIf="data.title">{{ data.title }}</h1>
+<mat-dialog-content class="content">
+  <p *ngIf="data.question">{{ data.question }}</p>
+  <h3>Answer:</h3>
+  <h2>42</h2>
+</mat-dialog-content>
+<footer mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="close('agree')">Agree</button>
+  <button mat-raised-button color="accent" (click)="close('disagree')">Disagree</button>
+</footer>

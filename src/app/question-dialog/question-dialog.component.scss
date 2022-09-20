@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+
+  h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-style: italic;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
